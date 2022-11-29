@@ -1,0 +1,9 @@
+{
+	"name": "nfl-df",
+	"location": "ukwest",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "01052f77-fabd-447e-b600-a7b0e15d859c",
+		"tenantId": "57983d09-6912-4708-b40e-fca99854028c"
+	}
+}
