@@ -50,13 +50,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "SourceDataset_3uk",
+						"referenceName": "Spreadspoke_Scores",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "DestinationDataset_3uk",
+						"referenceName": "NFL_Results_all",
 						"type": "DatasetReference"
 					}
 				]

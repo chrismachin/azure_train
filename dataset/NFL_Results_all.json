@@ -1,5 +1,5 @@
 {
-	"name": "DestinationDataset_3uk",
+	"name": "NFL_Results_all",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage2",
