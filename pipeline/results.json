@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy_3uk",
+				"name": "Copy NFL results",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
