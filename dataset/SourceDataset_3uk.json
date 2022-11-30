@@ -1,0 +1,91 @@
+{
+	"name": "SourceDataset_3uk",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureFileStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureFileStorageLocation",
+				"fileName": "spreadspoke_scores.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "schedule_date",
+				"type": "String"
+			},
+			{
+				"name": "schedule_season",
+				"type": "String"
+			},
+			{
+				"name": "schedule_week",
+				"type": "String"
+			},
+			{
+				"name": "schedule_playoff",
+				"type": "String"
+			},
+			{
+				"name": "team_home",
+				"type": "String"
+			},
+			{
+				"name": "score_home",
+				"type": "String"
+			},
+			{
+				"name": "score_away",
+				"type": "String"
+			},
+			{
+				"name": "team_away",
+				"type": "String"
+			},
+			{
+				"name": "team_favorite_id",
+				"type": "String"
+			},
+			{
+				"name": "spread_favorite",
+				"type": "String"
+			},
+			{
+				"name": "over_under_line",
+				"type": "String"
+			},
+			{
+				"name": "stadium",
+				"type": "String"
+			},
+			{
+				"name": "stadium_neutral",
+				"type": "String"
+			},
+			{
+				"name": "weather_temperature",
+				"type": "String"
+			},
+			{
+				"name": "weather_wind_mph",
+				"type": "String"
+			},
+			{
+				"name": "weather_humidity",
+				"type": "String"
+			},
+			{
+				"name": "weather_detail",
+				"type": "String"
+			}
+		]
+	}
+}
